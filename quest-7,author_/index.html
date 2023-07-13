@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-section">
+        <h2>Publish Your Story</h2>
+        <div class="input-box">
+          <input
+            type="text"
+            id="title"
+            placeholder="Title Of The Story Will Be Here"
+          />
+          <input type="text" id="description" placeholder="Enter Image Url" />
+          <input type="text" id="author" placeholder="Enter Author Name" />
+          <input type="text" id="date" placeholder="Category Eg: Education" />
+          <input type="text" id="category" placeholder="Enter Your Story" />
+          <button id="submit-btn" onclick="updatePreview()">
+            Submit My story
+          </button>
+        </div>
+      </div>
+      <div class="preview-section">
+        <img src="story.jpeg" alt="Random Image" />
+        <h3 id="preview-title">Title Of The Story Will Be Here</h3>
+        <p id="preview-description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+          corrupti explicabo debitis error accusamus! Quaerat maiores culpa
+          eveniet, dolores cumque laboriosam doloribus nesciunt est hic! Totam,
+          dicta assumenda commodi alias, dignissimos iure asperiores laudantium
+          sequi, perferendis rem est quidem reprehenderit obcaecati dolorem
+          fuga. Beatae quos laboriosam deleniti? Voluptate, labore dolorem!
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
